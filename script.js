@@ -1,6 +1,6 @@
 let xp = 0;
 let health = 50;
-let money = 30;
+let money = 100;
 let currentWeapon = 0;
 let caveLevel = 1;
 let monstersDefeated = 0;
@@ -100,7 +100,7 @@ const monsters = [
 const boss = [
     {
         name: "Dragon",
-        health: 100,
+        health: 50,
         get power() { return PowerCalculation(90, 100); }
     }
 ]
@@ -338,9 +338,9 @@ function FightDragon() {
 }
 
 function AttackDragon() {
-
+    
     const dragon = boss[0];
-    const playerPower = weapons[currentWeapon].power;
+    const playerPower = weapons[4].power;
     const dragonPower = dragon.power;
 
     if (dragonPower > playerPower) {
