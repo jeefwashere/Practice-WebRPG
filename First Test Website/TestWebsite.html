@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web RPG</title>
+    <link rel="icon" type="image/x-icon" href="Assets/Images/Minecraft_Heart_Icon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="game">
+        <div id="stats">
+            <span class="stat">XP: <strong><span id="xpValue">0</span></strong></span>
+            <span class="stat">HP: <strong><span id="healthValue">50</span></strong></span>
+            <span class="stat">Gold: <strong><span id="money">30</span></strong></span>
+        </div>
+        <div id="controls">
+            <button id="button1" onclick="GoStore()">Go to Store</button>
+            <button id="button2" onclick="GoCave()">Go to Cave</button>
+            <button id="button3" onclick="FightDragon()">Fight Dragon</button>
+            <button id="button4" onclick="CheckWeaponStats()">Weapon Stats</button>
+        </div> 
+        <div id="monsterStats">
+            <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+            <span class="stat">Monster Health: <strong><span id="monsterHealth"></span></strong></span>
+        </div>
+        <div id="message">
+            Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
+        </div>
+    </div>
+</body>
+</html>

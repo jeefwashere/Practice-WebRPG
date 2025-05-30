@@ -1,0 +1,42 @@
+body {
+    background-color: gray;
+}
+
+#game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: lightgray;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#stats{
+    border:black solid 3px;
+    padding: 10px;
+    color:black;
+}
+
+#controls {
+    padding:10px;
+    border:black solid 3px;
+}
+
+#monsterStats {
+    display:none;
+    border:black solid 3px;
+    padding: 10px;
+    color:white;
+    background-color: red;
+}
+
+#message {
+    background-color: black;
+    color:white;
+    padding:10px;
+}
+
+.stats, .monsterStats{
+    padding-right: 10px;
+}
